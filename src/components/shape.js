@@ -1,4 +1,5 @@
 // declare class
+
 class Shape {
   color = null;
 
