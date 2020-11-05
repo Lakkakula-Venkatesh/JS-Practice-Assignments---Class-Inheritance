@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-
-class App extends Component {
+module.exports = class App extends Component {
   render() {
     return (
       <>
@@ -8,5 +7,3 @@ class App extends Component {
     );
   }
 }
-
-module.exports = App;
