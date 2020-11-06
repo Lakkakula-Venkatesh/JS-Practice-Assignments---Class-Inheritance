@@ -1,6 +1,8 @@
+import { Component } from "react";
+
 // declare class
 
-module.exports = class Shape {
+class Shape extends Component {
   color = null;
 
   constructor(color) {
@@ -9,3 +11,4 @@ module.exports = class Shape {
   drawShape = function() {};
   calculateArea = function() {};
 }
+module.exports = Shape;

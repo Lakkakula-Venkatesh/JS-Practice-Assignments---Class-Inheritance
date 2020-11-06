@@ -1,5 +1,5 @@
 // import using require
-const Shape = require("./shape").default;
+const Shape = require("./Shape");
 // declare class
 class Circle extends Shape {
   constructor(props) {
