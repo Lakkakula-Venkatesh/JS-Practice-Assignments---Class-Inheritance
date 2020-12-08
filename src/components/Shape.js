@@ -1,14 +1,12 @@
-import { Component } from "react";
-
 // declare class
-
+import { Component } from "react";
 class Shape extends Component {
-  color = null;
-
   constructor(color) {
-    this.color = color;
+    super();
+    this.color = "red";
   }
-  drawShape = function() {};
-  calculateArea = function() {};
+  drawShape() {}
+  calculateArea() {}
 }
+// export class using module.exports
 module.exports = Shape;
