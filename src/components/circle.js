@@ -1,5 +1,5 @@
 // import using require
-let Shape = require('./Shape');
+let Shape = require('./shape');
 // declare class
 class Circle extends Shape {
   constructor() {
